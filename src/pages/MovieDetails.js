@@ -21,7 +21,7 @@ export const MovieDetails = () => {
   return (
     <main>
       <section className='flex flex-wrap justify-evenly py-5'>
-        <div className='max-w-sm mr-8'>
+        <div className='max-w-sm'>
           <img className='rounded-md' src={image} alt="" />
         </div>
         <div className='text-gray-700 text-lg max-w-2xl dark:text-white'>
@@ -44,7 +44,7 @@ export const MovieDetails = () => {
 
           <p className='my-4'>
             <span className='mr-2 font-bold'>Runtime:</span>
-            <span>{runtime}</span>
+            <span>{runtime} min</span>
           </p>
 
           <p className='my-4'>
@@ -54,12 +54,12 @@ export const MovieDetails = () => {
 
           <p className='my-4'>
             <span className='mr-2 font-bold'>Budget:</span>
-            <span>{budget}</span>
+            <span>{budget}  $</span>
           </p>
 
           <p className='my-4'>
             <span className='mr-2 font-bold'>Revenue:</span>
-            <span>{revenue}</span>
+            <span>{revenue}  $</span>
           </p>
 
           <p className='my-4'>
